@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "<project name>",
-    "slug": "<project slug>",
-    "privacy": "private",
+    "name": "project_name",
+    "slug": "project_slug",
+    "privacy": "unlisted",
     "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
