@@ -27,7 +27,10 @@ module.exports = {
     },
   },
   rules: {
-    'no-unused-vars': ['error', { args: 'none' }],
+    // 変数の未使用はerror
+    '@typescript-eslint/no-unused-vars': 'error',
+    // anyの使用は許容する
+    '@typescript-eslint/no-explicit-any': 'off',
     'prettier/prettier': [
       'error',
       {
